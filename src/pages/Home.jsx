@@ -14,7 +14,7 @@ function Home() {
 
     return (
         <>
-            <h1 className='w-full text-center p-3'> !! Welcome to HOME page {name} {process.env.VITE_KEY}</h1>
+            <h1 className='w-full text-center p-3'> !! Welcome to HOME page {name} {import.meta.env.VITE_KEY}</h1>
         </>
     )
 }
